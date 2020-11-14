@@ -39,7 +39,7 @@ public class Main {
         System.out.println();
         bt.printReverseInOrder(); //right, root, left
         System.out.println();
-        bt.printPreOrder(); // root, left, right
+        bt.printPreOrder(); //root, left, right
     }
 
     public static void testBubbleSortIntegerArray() {
