@@ -40,9 +40,15 @@ public class Main {
         bt.printReverseInOrder(); //right, root, left
         System.out.println();
         bt.printPreOrder(); //root, left, right
+        
+        
+        int[] num = {10, 1, 4, 6, 8, 2, 16, -2};
+        System.out.println();
+        System.out.println();
+        testBubbleSortIntegerArray(num);
     }
 
-    public static void testBubbleSortIntegerArray() {
+    public static void testBubbleSortIntegerArray(int[] num) {
 
         int[] num = {10, 1, 4, 6, 8, 2, 16, -2};
 
