@@ -6,7 +6,6 @@ public class Main {
 
         //Working as https://www.cs.usfca.edu/~galles/visualization/BST.html
         //Lagt till en contains method som returnar true eller false om värdet finns i trädet.
-        //kolla dubletter
 
         MyBinaryTree bt = new MyBinaryTree();
 
